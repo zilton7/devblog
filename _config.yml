@@ -92,7 +92,7 @@ footer:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "/devblog"
       type: posts
     values:
       layout: single
