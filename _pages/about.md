@@ -3,6 +3,27 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+- Self-taught, detail-obsessed web developer with a knack for crafting clean, efficient code and building sleek, user-friendly applications. 
+- Passionate about best practices, remote collaboration, and solving problems with elegant solutions. 
+- Fluent in a stack of languages, frameworks, and tools, and always ready to level up my skills.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+## Front-End
+- Hotwire
+- Tailwind
+- JavaScript
+- jQuery
+- Bootstrap
+
+## Back-End
+- Ruby on Rails
+- Python, PHP
+- JavaScript
+
+## Tools & Methods
+- Git
+- GitHub
+- Capistrano
+- RSpec
+- TDD
+- Chrome Dev Tools
+- Mobile/Responsive Development

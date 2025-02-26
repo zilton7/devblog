@@ -79,15 +79,15 @@ author:
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "X.com"
+      icon: "fa-brands fa-x-twitter"
+      url: "https://x.com/zilasino"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/zilton7"
+    - label: "LinkedIn"
+      icon: "fa-brands fa-linkedin"
+      url: "https://www.linkedin.com/in/zil-norvilis/"
 
 defaults:
   # _posts
@@ -123,7 +123,7 @@ comments:
     category_name        : General # Full text name of the category
     category_id          : DIC_kwDON_hXdc4CnXJT # Shown during giscus setup at https://giscus.app
     discussion_term      : pathname # "pathname" (default), "url", "title", "og:title"
-    reactions_enabled    : 1 # '1' for enabled (default), '0' for disabled
+    reactions_enabled    : 0 # '1' for enabled (default), '0' for disabled
     theme                : dark_dimmed # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
     strict               : 0 # 1 for enabled, 0 for disabled (default)
     input_position       : "top" #"top", "bottom" # The comment input box will be placed above or below the comments
