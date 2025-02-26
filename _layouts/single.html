@@ -51,7 +51,9 @@ layout: default
       {% if page.tags %}
       <div class="page__taxonomy">
         {% for tag in page.tags %}
-        <a href="{{ page.url | absolute_url }}/tags/#{{ tag | slugify }}" class="page__taxonomy-item" rel="tag">#{{ tag
+        <a href="{{ absolute_url }}{{ site.baseurl }}/tags/#{{ tag | slugify }}" class="page__taxonomy-item"
+          rel="tag">#{{
+          tag
           }}</a>
         {% endfor %}
       </div>
