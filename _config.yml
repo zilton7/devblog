@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   My thoughts on Web Developing, Solopreneurship, Linux and other. Including notes to myself
   for easier and quicker developing.
 baseurl: /devblog
-url: http://zilton7.github.io
+url: https://zilton7.github.io
 twitter_username: zilasino
 github_username:  zilton7
 minimal_mistakes_skin: dark
