@@ -5,7 +5,7 @@ tags: linux manjaro
 ---
 Manjaro, based on Arch Linux, supports the Arch User Repository (AUR). Below are the steps to install AUR packages on Manjaro.
 
-![Manjaro Desktop]({{ site.url }}{{ site.baseurl }}/assets/images/2025-02-19-How-to-Install-AUR-Packages-on-Manjaro/manjaro-kde.png)
+![Manjaro Desktop]({{ site.url }}{{ site.baseurl }}/assets/images/2025-02-19-How-to-Install-AUR-Packages-on-Manjaro/manjaro-kde.webp)
 
 ---
 

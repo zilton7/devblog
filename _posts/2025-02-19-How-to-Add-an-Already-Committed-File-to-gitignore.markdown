@@ -5,7 +5,7 @@ tags: git github selfnote
 ---
 If you've already committed a file to Git and want to add it to `.gitignore`, follow these steps.
 
-![Cover Image of the Article]({{ site.url }}{{ site.baseurl }}/assets/images/2025-02-19-How-to-Add-an-Already-Committed-File-to-gitignore/main_image.png)
+![Cover Image of the Article]({{ site.url }}{{ site.baseurl }}/assets/images/2025-02-19-How-to-Add-an-Already-Committed-File-to-gitignore/git-version-control.webp)
 
 ## 1. Add the file to `.gitignore`  
    Open your `.gitignore` file (or create one if it doesn't exist) and add the file or directory you want to ignore. For example:
