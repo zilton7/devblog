@@ -1,0 +1,41 @@
+---
+title:  After Merging Changes on GitHub, Sync Them to Your Local Branch
+
+categories: selfnote
+tags: git github selfnote
+---
+
+After merging changes to main on GitHub, here's how to sync them to your local main branch:
+
+```bash
+# Switch to your main branch
+git checkout main
+
+# Pull the latest changes from the remote main branch
+git pull origin main
+```
+
+That's it! The `git pull` command fetches the changes from GitHub and merges them into your local main branch.
+
+**Alternative approach (more explicit):**
+```bash
+git checkout main
+git fetch origin      # Download changes without merging
+git merge origin/main # Merge the changes into local main
+```
+
+**Common workflow:**
+If you were working on a feature branch and merged it via a GitHub pull request, you'd typically do:
+
+```bash
+git checkout main
+git pull origin main
+git branch -d feature-branch-name  # Delete your local feature branch (optional)
+```
+
+**Quick tip:** If you want to update main while staying on your current branch:
+```bash
+git fetch origin main:main
+```
+
+This updates your local main branch without having to switch to it first.
