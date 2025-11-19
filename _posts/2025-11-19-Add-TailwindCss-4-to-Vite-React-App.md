@@ -1,5 +1,7 @@
 Here is the guide to adding **Tailwind CSS v4** to an existing Vite React app.
 
+![Cover Image of the Article]({{ site.url }}{{ site.baseurl }}/assets/images/2025-11-19-Add-TailwindCss-4-to-Vite-React-App/vite-tailwind-react.jpg)
+
 Version 4 simplifies the setup significantly by using a dedicated Vite plugin and a "CSS-first" configuration, removing the need for `postcss.config.js` and `tailwind.config.js`.
 
 ### 1. Install the Dependencies
