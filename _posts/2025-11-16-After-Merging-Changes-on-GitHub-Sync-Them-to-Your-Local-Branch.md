@@ -3,6 +3,8 @@ title:  After Merging Changes on GitHub, Sync Them to Your Local Branch
 
 categories: selfnote
 tags: git github selfnote
+image:
+    feature: /assets/images/2025-11-16-After-Merging-Changes-on-GitHub-Sync-Them-to-Your-Local-Branch/github.webp
 ---
 After merging changes to main on GitHub, here's how to sync them to your local main branch:
 

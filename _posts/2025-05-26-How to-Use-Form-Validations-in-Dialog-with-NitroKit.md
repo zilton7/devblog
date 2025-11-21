@@ -2,6 +2,8 @@
 title: How to Use Form Validations in Dialog with NitroKit
 categories: selfnote
 tags: rails nitrokit turbo_stream hotwire
+image:
+    feature: /assets/images/2025-05-26-How to-Use-Form-Validations-in-Dialog-with-NitroKit/form.webp
 ---
 
 I've ran into issues trying to validate form inside dialog component using [NitroKit](https://nitrokit.dev) UI components. The dialog kept closing on every submission, the solution that worked was wraping form in turbo_frame_tag.

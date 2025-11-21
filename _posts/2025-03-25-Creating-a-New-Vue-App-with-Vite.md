@@ -2,6 +2,8 @@
 title: 'Creating a New Vue App with Vite'
 categories: Javascript
 tags: vite vue javascript
+image:
+    feature: /assets/images/2025-04-25-Creating-a-New-Vue-App-with-Vite/vite-and-vue.webp
 ---
 
 Vite is a modern frontend build tool that provides extremely fast development server startup and hot module replacement. Here's how to create a new Vue app using Vite:

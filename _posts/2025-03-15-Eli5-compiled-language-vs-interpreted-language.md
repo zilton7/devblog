@@ -2,6 +2,8 @@
 title: 'ELI5: Compiled Language vs Interpreted Language'
 categories: Programming
 tags: [eli5, 'programming langauges', compiled, interpreted]
+image:
+    feature: /assets/images/2025-03-15-Eli5-compiled-language-vs-interpreted-language/programming.webp
 ---
 Compiled languages are **faster** but need a prep step (compiling), while interpreted ones are **easier to change** but can be slower.
 

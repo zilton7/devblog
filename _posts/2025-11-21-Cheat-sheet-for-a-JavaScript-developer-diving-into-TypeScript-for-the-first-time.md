@@ -3,6 +3,8 @@ title: Cheat Sheet For a JavaScript Developer Diving Into TypeScript For The Fir
 
 categories: selfnote
 tags: typescript javascript
+image:
+  feature: /assets/images/2025-11-21-Cheat-sheet-for-a-JavaScript-developer-diving-into-TypeScript-for-the-first-time/img.png
 ---
 Here is a cheat sheet for a JavaScript developer diving into TypeScript (TS) for the first time.
 

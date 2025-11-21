@@ -1,0 +1,18 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+<div class="entries-{{ page.entries_layout | default: 'list' }}">
+  {% for post in paginator.posts %}
+    <div class="post-entry-container">
+      {% if post.image.feature %}
+        <div class="entry-image">
+          <a href="{{ post.url | relative_url }}" title="{{ post.title }}"><img src="{{ post.image.feature | relative_url }}" alt="{{ post.title }}"></a>
+        </div>
+      {% endif %}
+      {% include archive-single.html type=page.entries_layout %}
+    </div>
+  {% endfor %}
+</div>

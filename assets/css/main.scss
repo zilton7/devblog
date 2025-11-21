@@ -1,0 +1,37 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+// Import the Minimal Mistakes theme
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/*
+ * Your custom styles
+ * -------------------------------------------------- */
+
+.post-entry-container {
+  border: 1px solid #444; // A border that works well with the dark theme
+  border-radius: 8px;      // Softens the corners
+  padding: 1.5em;          // Adds some space inside the border
+  margin-bottom: 2em;      // Adds space between posts
+}
+
+.entry-image {
+  margin-bottom: 1em; // A little more space now that the container has a fixed height
+  aspect-ratio: 16 / 9;
+  overflow: hidden; // Ensures the image is cropped and respects the border-radius
+  border-radius: 8px; // Apply radius to the container for a consistent look
+}
+
+.entry-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; // Crops the image to fill the container without distortion
+}
+
+.entry-image a {
+  display: block; // Ensures the link fills the container
+}
