@@ -1,5 +1,5 @@
 ---
-title: Using Ruby Model Classes and Service Objects
+title: Using Ruby Model Classes, Service Objects and Interactors
 
 categories: selfnote
 tags: [ruby, rails,  'service object', 'model class']
