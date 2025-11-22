@@ -2,7 +2,7 @@
 title: Using Ruby Model Classes, Service Objects and Interactors
 
 categories: selfnote
-tags: [ruby, rails,  'service object', 'model class']
+tags: [ruby, rails,  'service object', 'model class', interactor]
 image:
   feature: /assets/images/2025-11-22-Model-Classes-and-Service-Objects/ruby.webp
 ---
