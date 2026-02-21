@@ -9,7 +9,9 @@ image:
 ## The "Partial" Problem
 We love Rails.
 
-![Cover Image of the Article]({{ site.url }}{{ site.baseurl }}/assets/images/2026-02-21-The-Solo-Frontend-Team-Building-A-Ui-System-In-Pure-Ruby/feature.webp) We love ERB. But let's be honest: `app/views` is usually the messiest part of any Rails codebase.
+![Cover Image of the Article]({{ site.url }}{{ site.baseurl }}/assets/images/2026-02-21-The-Solo-Frontend-Team-Building-A-Ui-System-In-Pure-Ruby/feature.webp)
+
+We love ERB. But let's be honest: `app/views` is usually the messiest part of any Rails codebase.
 
 You start simple. Then you extract a partial. Then you need to pass a local variable.
 ```erb
