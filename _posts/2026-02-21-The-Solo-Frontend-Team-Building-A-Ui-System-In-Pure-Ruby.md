@@ -1,5 +1,5 @@
 ---
-title: The Solo Frontend Team: Building a UI System in Pure Ruby
+title: "The Solo Frontend Team: Building a UI System in Pure Ruby"
 categories: selfnote
 tags: [rails, ruby, frontend, architecture]
 image:
