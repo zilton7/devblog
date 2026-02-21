@@ -9,7 +9,9 @@ image:
 ## The "Manjaro Plateau"
 For years, Manjaro was my comfortable home.
 
-![Cover Image of the Article]({{ site.url }}{{ site.baseurl }}/assets/images/2026-02-21-Why-I-Ditched-Manjaro-For-Cachyos-And-I-M-Never-Going-Back/feature.webp) It was the "Arch for human beings." It gave me access to the AUR without the terror of a command-line installation. It was reliable... mostly.
+![Cover Image of the Article]({{ site.url }}{{ site.baseurl }}/assets/images/2026-02-21-Why-I-Ditched-Manjaro-For-Cachyos-And-I-M-Never-Going-Back/feature.webp) 
+
+It was the "Arch for human beings." It gave me access to the AUR without the terror of a command-line installation. It was reliable... mostly.
 
 But recently, I hit a plateau.
 There were the package delays (waiting 2 weeks for a Plasma update that Arch users already had). There were the occasional breakages when using AUR packages that expected a newer system library than Manjaro provided. And frankly, it just felt a little... bloated.
