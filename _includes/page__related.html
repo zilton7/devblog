@@ -1,0 +1,41 @@
+{% assign posts = include.posts | where_exp: "post", "post.hidden != true" %}
+
+<div class="page__related">
+    {% include before-related.html %}
+    <h2 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}
+    </h2>
+
+    <!-- 1. Featured Card Thumbnail at the Top -->
+    {% assign featured_post = posts | first %}
+    {% if featured_post %}
+    <div class="featured-post-card" style="margin-bottom: 2em;">
+        <article class="archive__item"
+            style="border: 1px solid #f2f3f3; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 5px rgba(0,0,0,0.1);">
+            {% if featured_post.header.teaser %}
+            <div class="archive__item-teaser" style="max-height: 300px; overflow: hidden;">
+                <a href="{{ featured_post.url | relative_url }}">
+                    <img src="{{ featured_post.header.teaser | relative_url }}" alt="{{ featured_post.title }}"
+                        style="width: 100%; object-fit: cover;">
+                </a>
+            </div>
+            {% endif %}
+            <div class="archive__item-body" style="padding: 1.5em;">
+                <h2 class="archive__item-title no_toc">
+                    <a href="{{ featured_post.url | relative_url }}">{{ featured_post.title }}</a>
+                </h2>
+                {% if featured_post.excerpt %}
+                <p class="archive__item-excerpt">{{ featured_post.excerpt | strip_html | truncate: 160 }}</p>
+                {% endif %}
+            </div>
+        </article>
+    </div>
+    {% endif %}
+
+    <!-- 2. The remaining grid (offset by 1 to skip the featured card) -->
+    <div class="grid__wrapper">
+        {% for post in posts limit:4 offset:1 %}
+        {% if post.id == page.id %}{% continue %}{% endif %}
+        {% include archive-single.html type="grid" %}
+        {% endfor %}
+    </div>
+</div>
