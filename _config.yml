@@ -108,7 +108,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      comments: true # This enables the comment section
       
 category_archive:
   type: liquid
