@@ -76,6 +76,9 @@ author:
     - label: "LinkedIn"
       icon: "fa-brands fa-linkedin"
       url: "https://www.linkedin.com/in/zil-norvilis/"
+    - label: "Bluesky"
+      icon: "fa-brands fa-bluesky"
+      url: "https://bsky.app/zilton7.bsky.social"
 
 footer:
   links:
@@ -88,6 +91,9 @@ footer:
     - label: "LinkedIn"
       icon: "fa-brands fa-linkedin"
       url: "https://www.linkedin.com/in/zil-norvilis/"
+    - label: "Bluesky"
+      icon: "fa-brands fa-bluesky"
+      url: "https://bsky.app/zilton7.bsky.social"
 
 defaults:
   # _posts
