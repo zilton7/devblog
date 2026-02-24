@@ -8,11 +8,9 @@ image:
 
 If you are coming from JavaScript (npm/yarn) or Python (pip/virtualenv), the Ruby way of doing things can feel slightly different.
 
-New developers often run into errors like *"Bundler::GemNotFound"* or *"Your Ruby version is 3.1. .
+New developers often run into errors like *"Bundler::GemNotFound"* or *"Your Ruby version is 3.1.2, but your Gemfile specified 3.2.0."* .
 
 ![Cover Image of the Article]({{ site.url }}{{ site.baseurl }}/assets/images/2026-02-24-The-Holy-Trinity-Ruby-Bundler-And-Gemfiles-Explained/feature.webp)
-
-2, but your Gemfile specified 3.2.0."*
 
 To survive as a Rails developer, you need to understand the three distinct layers that keep your application from falling apart.
 
