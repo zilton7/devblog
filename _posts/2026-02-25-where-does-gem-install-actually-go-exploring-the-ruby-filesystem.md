@@ -12,11 +12,9 @@ But where did it go? Is it in your project folder? Is it in your operating syste
 
 To master the Ruby environment, you need to understand the physical file structure. Here is what happens under the hood.
 
-## 1. .
-
 ![Cover Image of the Article]({{ site.url }}{{ site.baseurl }}/assets/images/2026-02-25-Where-Does-Gem-Install-Actually-Go-Exploring-The-Ruby-Filesystem/feature.webp)
 
-The Ruby Version Manager (The Traffic Cop)
+## 1. The Ruby Version Manager (The Traffic Cop)
 
 Before we talk about gems, we have to talk about **Ruby** itself.
 If you use a version manager like **rbenv** or **asdf** (which you should), you don't actually run the "real" Ruby when you type `ruby`. You run a **Shim**.
