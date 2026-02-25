@@ -8,10 +8,6 @@ image:
 ---
 Here is a cheat sheet for a JavaScript developer diving into TypeScript (TS) for the first time.
 
-![Cover Image of the Article]({{ site.url }}{{ site.baseurl }}/assets/images/2025-11-21-Cheat-sheet-for-a-JavaScript-developer-diving-into-TypeScript-for-the-first-time/img.png)
-
-Here is a cheat sheet for a JavaScript developer diving into TypeScript (TS) for the first time.
-
 ### The Golden Rule
 **TypeScript is just JavaScript with "Types" added.**
 The browser cannot run TypeScript. It must be "transpiled" (compiled) back into JavaScript using the command `tsc`.

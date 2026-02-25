@@ -10,8 +10,6 @@ image:
 Using a **model class** (even a simple PORO in `app/models`) for features has several advantages in Rails.
 This is why developers often prefer “a model class” over scattering logic in controllers, helpers, or initializers.
 
-![Cover Image of the Article]({{ site.url }}{{ site.baseurl }}/assets/images/2025-11-22-Model-Classes-and-Service-Objects/ruby.webp)
-
 Below are the **key advantages**:
 
 ---

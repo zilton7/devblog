@@ -23,6 +23,14 @@ layout: default
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork" {% if page.locale %}
     lang="{{ page.locale }}" {% endif %}>
+
+    {% if page.image.feature %}
+    <span style="margin: 20px;">
+      <img src="{{ page.image.feature }}" alt="{{ page.title }}"
+        style="width: 90%; display: block; margin: 0 auto; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);" />
+    </span>
+    {% endif %}
+
     {% if page.title %}
     <meta itemprop="headline"
       content="{{ page.title | replace: '|', '&#124;' | markdownify | strip_html | strip_newlines | escape_once }}">

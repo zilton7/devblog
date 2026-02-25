@@ -9,8 +9,6 @@ image:
 ## The "Partial" Problem
 We love Rails. We love ERB. But let's be honest: `app/views` is usually the messiest part of any Rails codebase. .
 
-![Cover Image of the Article]({{ site.url }}{{ site.baseurl }}/assets/images/2026-02-23-The-Solo-Frontend-Team-Building-A-Ui-System-In-Pure-Ruby/feature.webp)
-
 You start simple. Then you extract a partial. Then you need to pass a local variable.
 ```erb
 <%= render partial: "shared/card", locals: { title: "Hello", show_footer: true, user: @user } %>

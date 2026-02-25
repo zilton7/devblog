@@ -8,8 +8,6 @@ image:
 ---
 After merging changes to main on GitHub, here's how to sync them to your local main branch:
 
-![Cover Image of the Article]({{ site.url }}{{ site.baseurl }}/assets/images/2025-11-16-After-Merging-Changes-on-GitHub-Sync-Them-to-Your-Local-Branch/github.webp)
-
 ```bash
 # Switch to your main branch
 git checkout main
