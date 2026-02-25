@@ -7,7 +7,11 @@
     href="{{ site.url }}{{ site.baseurl }}/assets/images/favicons/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
 
-<!-- end custom head snippets -->
+{% if page.image.feature %}
+<meta property="og:image" content="{{ page.image.feature | absolute_url }}">
+<meta name="twitter:image" content="{{ page.image.feature | absolute_url }}">
+<meta name="twitter:card" content="summary_large_image">
+{% endif %}
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-19YQF7RSV8"></script>
@@ -17,3 +21,5 @@
     gtag('js', new Date());
     gtag('config', 'G-19YQF7RSV8');
 </script>
+
+<!-- end custom head snippets -->
