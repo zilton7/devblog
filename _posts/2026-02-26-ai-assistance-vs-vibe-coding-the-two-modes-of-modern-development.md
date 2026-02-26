@@ -56,7 +56,7 @@ Vibe coding is incredibly fun. It feels like magic. But there is a trap.
 
 If you *only* Vibe Code, you will eventually hit a wall. You will generate a massive codebase that works, but you have no idea how. Then, a bug will appear that the AI can't fix because the architecture is a mess.
 
-If you don't know the basics—if you don't know how Rails routing works or how CSS flexbox behaves—you cannot "Vibe Code" effectively because you won't know how to prompt the AI to fix its own mess.
+If you don't know the basics - if you don't know how Rails routing works or how CSS flexbox behaves - you cannot "Vibe Code" effectively because you won't know how to prompt the AI to fix its own mess.
 
 ## Summary: The Hybrid Workflow
 
