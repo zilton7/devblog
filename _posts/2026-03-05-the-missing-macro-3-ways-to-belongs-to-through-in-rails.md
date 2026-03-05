@@ -1,5 +1,5 @@
 ---
-title: 'The Missing Macro: 3 Ways to "belongs_to :through" in Rails'
+title: "The Missing Macro: 3 Ways to 'belongs_to :through' in Rails"
 categories: selfnote
 tags: [rails, ruby, webdev, architecture]
 image:
