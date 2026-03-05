@@ -27,6 +27,9 @@ twitter:
   username: zilasino
   card: summary_large_image
 
+og_image:
+  path: assets/images/me.webp
+
 social:
   name: Zil Norvilis
   links:
