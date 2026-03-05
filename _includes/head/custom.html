@@ -10,9 +10,13 @@
 {% if page.image.feature %}
 <meta property="og:image" content="{{ page.image.feature | absolute_url }}">
 <meta name="twitter:image" content="{{ page.image.feature | absolute_url }}">
+<meta name="twitter:image:alt" content="{{ page.title }}">
+<meta name="twitter:card" content="summary_large_image">
 {% else %}
 <meta property="og:image" content="{{ site.og_image }}">
 <meta name="twitter:image" content="{{ site.og_image }}">
+<meta name="twitter:image:alt" content="{{ site.title }}">
+<meta name="twitter:card" content="summary_large_image">
 {% endif %}
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
