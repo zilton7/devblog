@@ -3,7 +3,7 @@ title: "Dear Future Me: How to Write Code You Won't Hate in 6 Months"
 categories: selfnote
 tags: [productivity, career, documentation, beginners]
 image:
-  feature: /assets/images/2026-02-28-Dear-Future-Me-How-To-Write-Code-You-Won-T-Hate-In-6-Months/feature.webp
+  path: /assets/images/2026-02-28-Dear-Future-Me-How-To-Write-Code-You-Won-T-Hate-In-6-Months/feature.webp
 ---
 
 ## The "I'll Remember This" Lie

@@ -4,7 +4,7 @@ title: Add TailwindCss 4 to Vite React App
 categories: selfnote
 tags: vite react tailwindcss
 image:
-  feature: /assets/images/2025-11-19-Add-TailwindCss-4-to-Vite-React-App/vite-tailwind-react.webp
+  path: /assets/images/2025-11-19-Add-TailwindCss-4-to-Vite-React-App/vite-tailwind-react.webp
 ---
 Here is the guide to adding **Tailwind CSS v4** to an existing Vite React app.
 

@@ -3,7 +3,7 @@ title: "Stop Using Net::HTTP: A Guide to Modern Ruby Requests"
 categories: selfnote
 tags: [ruby, rails, webdev, performance]
 image:
-  feature: /assets/images/2026-03-01-Stop-Using-Net-Http-A-Guide-To-Modern-Ruby-Requests/feature.webp
+  path: /assets/images/2026-03-01-Stop-Using-Net-Http-A-Guide-To-Modern-Ruby-Requests/feature.webp
 ---
 
 Ruby has a standard library for making web requests called `Net::HTTP`.

@@ -3,7 +3,7 @@ title: "The Magic of lvh.me: Testing Rails Subdomains in Development"
 categories: selfnote
 tags: [rails, webdev, productivity, devops]
 image:
-  feature: /assets/images/2026-03-04-The-Magic-Of-Lvh-Me-Testing-Rails-Subdomains-In-Development/feature.webp
+  path: /assets/images/2026-03-04-The-Magic-Of-Lvh-Me-Testing-Rails-Subdomains-In-Development/feature.webp
 ---
 
 ## The `/etc/hosts` Headache

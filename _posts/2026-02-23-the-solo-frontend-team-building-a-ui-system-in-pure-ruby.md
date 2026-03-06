@@ -3,7 +3,7 @@ title: "The Solo Frontend Team: Building a UI System in Pure Ruby"
 categories: selfnote
 tags: [rails, ruby, frontend, architecture]
 image:
-  feature: /assets/images/2026-02-23-The-Solo-Frontend-Team-Building-A-Ui-System-In-Pure-Ruby/feature.webp
+  path: /assets/images/2026-02-23-The-Solo-Frontend-Team-Building-A-Ui-System-In-Pure-Ruby/feature.webp
 ---
 
 ## The "Partial" Problem

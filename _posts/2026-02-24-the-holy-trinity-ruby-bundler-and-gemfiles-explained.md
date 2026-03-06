@@ -3,7 +3,7 @@ title: "The Holy Trinity: Ruby, Bundler, and Gemfiles Explained"
 categories: selfnote
 tags: [ruby, rails, beginners, learning]
 image:
-  feature: /assets/images/2026-02-24-The-Holy-Trinity-Ruby-Bundler-And-Gemfiles-Explained/feature.webp
+  path: /assets/images/2026-02-24-The-Holy-Trinity-Ruby-Bundler-And-Gemfiles-Explained/feature.webp
 ---
 
 If you are coming from JavaScript (npm/yarn) or Python (pip/virtualenv), the Ruby way of doing things can feel slightly different.

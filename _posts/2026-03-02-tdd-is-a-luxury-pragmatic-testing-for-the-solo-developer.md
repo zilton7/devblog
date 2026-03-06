@@ -3,7 +3,7 @@ title: "TDD is a Luxury: Pragmatic Testing for the Solo Developer"
 categories: selfnote
 tags: [rails, testing, webdev, startups]
 image:
-  feature: /assets/images/2026-03-02-Tdd-Is-A-Luxury-Pragmatic-Testing-For-The-Solo-Developer/feature.webp
+  path: /assets/images/2026-03-02-Tdd-Is-A-Luxury-Pragmatic-Testing-For-The-Solo-Developer/feature.webp
 ---
 
 ## The Dogma vs. The Deadline

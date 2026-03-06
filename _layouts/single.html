@@ -24,9 +24,9 @@ layout: default
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork" {% if page.locale %}
     lang="{{ page.locale }}" {% endif %}>
 
-    {% if page.image.feature %}
+    {% if page.image.path %}
     <span style="margin: 20px;">
-      <img src="{{ page.image.feature }}" alt="{{ page.title }}"
+      <img src="{{ page.image.path }}" alt="{{ page.title }}"
         style="width: 90%; display: block; margin: 0 auto; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);" />
     </span>
     {% endif %}

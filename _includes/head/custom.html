@@ -7,17 +7,14 @@
     href="{{ site.url }}{{ site.baseurl }}/assets/images/favicons/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
 
-{% if page.image.feature %}
-<meta property="og:image" content="{{ page.image.feature | absolute_url }}">
-<meta name="twitter:image" content="{{ page.image.feature | absolute_url }}">
-<meta name="twitter:image:alt" content="{{ page.title }}">
-<meta name="twitter:card" content="summary_large_image">
-{% else %}
-<meta property="og:image" content="{{ site.og_image }}">
-<meta name="twitter:image" content="{{ site.og_image }}">
-<meta name="twitter:image:alt" content="{{ site.title }}">
-<meta name="twitter:card" content="summary_large_image">
+{% if page.image.path %}
+<meta property="og:image" content="{{ page.image.path | absolute_url }}">
+<meta name="twitter:image" content="{{ page.image.path | absolute_url }}">
+{% elsif site.og_image %}
+<meta property="og:image" content="{{ site.og_image | absolute_url }}">
+<meta name="twitter:image" content="{{ site.og_image | absolute_url }}">
 {% endif %}
+<meta name="twitter:card" content="summary_large_image">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-19YQF7RSV8"></script>

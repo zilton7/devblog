@@ -3,7 +3,7 @@ title: "Where Does gem install Actually Go? Exploring the Ruby Filesystem"
 categories: selfnote
 tags: [ruby, rails, learning, devops]
 image:
-  feature: /assets/images/2026-02-25-Where-Does-Gem-Install-Actually-Go-Exploring-The-Ruby-Filesystem/feature.webp
+  path: /assets/images/2026-02-25-Where-Does-Gem-Install-Actually-Go-Exploring-The-Ruby-Filesystem/feature.webp
 ---
 
 We type `gem install rails` or `bundle install` every day. Text scrolls down the screen, and suddenly we can use the library.

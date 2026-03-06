@@ -3,7 +3,7 @@ title: "Stop Building Settings Pages: A Guide to Ruthless MVP Scoping"
 categories: selfnote
 tags: [productivity, startups, webdev, career]
 image:
-  feature: /assets/images/2026-02-27-Stop-Building-Settings-Pages-A-Guide-To-Ruthless-Mvp-Scoping/feature.webp
+  path: /assets/images/2026-02-27-Stop-Building-Settings-Pages-A-Guide-To-Ruthless-Mvp-Scoping/feature.webp
 ---
 
 ## The Graveyard of Perfect Apps

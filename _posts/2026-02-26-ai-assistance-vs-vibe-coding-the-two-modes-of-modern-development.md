@@ -3,7 +3,7 @@ title: "AI Assistance vs. Vibe Coding: The Two Modes of Modern Development"
 categories: selfnote
 tags: [ai, productivity, career, webdev]
 image:
-  feature: /assets/images/2026-02-26-Ai-Assistance-Vs-Vibe-Coding-The-Two-Modes-Of-Modern-Development/feature.webp
+  path: /assets/images/2026-02-26-Ai-Assistance-Vs-Vibe-Coding-The-Two-Modes-Of-Modern-Development/feature.webp
 ---
 
 It is wild how fast things change. Just a few years ago, we were amazed that GitHub Copilot could autocomplete a `def index` method in our controller.

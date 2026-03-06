@@ -3,7 +3,7 @@ title: "The Missing Macro: 3 Ways to 'belongs_to :through' in Rails"
 categories: selfnote
 tags: [rails, ruby, webdev, architecture]
 image:
-  feature: /assets/images/2026-03-05-The-Missing-Macro-3-Ways-To-Belongs-To-Through-In-Rails/feature.webp
+  path: /assets/images/2026-03-05-The-Missing-Macro-3-Ways-To-Belongs-To-Through-In-Rails/feature.webp
 ---
 
 ## The Missing Link

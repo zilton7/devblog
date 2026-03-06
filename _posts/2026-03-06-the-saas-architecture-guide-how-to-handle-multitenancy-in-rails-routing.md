@@ -3,7 +3,7 @@ title: "The SaaS Architecture Guide: How to Handle Multitenancy in Rails Routing
 categories: selfnote
 tags: [rails, ruby, architecture, webdev]
 image:
-  feature: /assets/images/2026-03-06-The-Saas-Architecture-Guide-How-To-Handle-Multitenancy-In-Rails-Routing/feature.webp
+  path: /assets/images/2026-03-06-The-Saas-Architecture-Guide-How-To-Handle-Multitenancy-In-Rails-Routing/feature.webp
 ---
 
 Most Rails developers stop learning routing after `resources :posts`.

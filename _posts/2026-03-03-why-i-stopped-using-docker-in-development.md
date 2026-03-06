@@ -3,7 +3,7 @@ title: "Why I Stopped Using Docker in Development"
 categories: selfnote
 tags: [rails, webdev, productivity, docker]
 image:
-  feature: /assets/images/2026-03-03-Why-I-Stopped-Using-Docker-In-Development/feature.webp
+  path: /assets/images/2026-03-03-Why-I-Stopped-Using-Docker-In-Development/feature.webp
 ---
 
 ## The Industry Standard Trap

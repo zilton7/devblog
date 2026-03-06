@@ -4,7 +4,7 @@ title: Using Ruby Model Classes, Service Objects and Interactors
 categories: selfnote
 tags: [ruby, rails,  'service object', 'model class', interactor]
 image:
-  feature: /assets/images/2025-11-22-Model-Classes-and-Service-Objects/ruby.webp
+  path: /assets/images/2025-11-22-Model-Classes-and-Service-Objects/ruby.webp
 ---
 
 Using a **model class** (even a simple PORO in `app/models`) for features has several advantages in Rails.
