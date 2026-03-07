@@ -23,9 +23,9 @@ url: https://norvilis.com
 twitter_username: zilasino
 github_username:  zilton7
 
-twitter:
-  username: zilasino
-  card: summary_large_image
+# twitter:
+#   username: zilasino
+#   card: summary_large_image
 
 og_image: assets/images/me.webp
 

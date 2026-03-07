@@ -9,10 +9,11 @@
 
         <div class="grid__item">
             <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-                {% if post.image.feature %}
+                {% if post.image.path %}
                 <div class="archive__item-teaser">
                     <a href="{{ post.url | relative_url }}">
-                        <img src="{{ post.image.feature | relative_url }}" alt="{{ post.title }}" style="width: 90%; display: block; margin: 0 auto; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                        <img src="{{ post.image.path | relative_url }}" alt="{{ post.title }}"
+                            style="width: 90%; display: block; margin: 0 auto; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
                     </a>
                 </div>
                 {% endif %}
