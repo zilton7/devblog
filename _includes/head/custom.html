@@ -9,13 +9,14 @@
 
 {% if page.image.path %}
 <meta property="og:image" content="{{ page.image.path | absolute_url }}">
-<meta name="twitter:image" content="{{ page.image.path | absolute_url }}">
+<meta name="twitter:image:src" content="{{ page.image.path | absolute_url }}">
 {% elsif site.me_image %}
 <meta property="og:image" content="{{ site.me_image | absolute_url }}">
-<meta name="twitter:image" content="{{ site.me_image | absolute_url }}">
+<meta name="twitter:image:src" content="{{ site.me_image | absolute_url }}">
 {% endif %}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@zilasino">
+<meta name="twitter:title" content="{{ page.title }}">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-19YQF7RSV8"></script>
