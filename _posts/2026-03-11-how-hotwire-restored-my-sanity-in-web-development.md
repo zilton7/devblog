@@ -6,7 +6,7 @@ image:
  path: /assets/images/2026-03-11-How-Hotwire-Restored-My-Sanity-In-Web-Development/feature.webp
 ---
 
-’ll admit it: I used to be a React maximalist. 
+I'll admit it: I used to be a React maximalist. 
 
 I spent years believing that if you wanted a "modern" web experience, you had to build a decoupled architecture. I wrote thousands of lines of boilerplate to synchronize a client-side JSON state with a server-side database. I wrestled with `useEffect` loops, Redux stores, and the constant fear that my frontend and backend would drift out of sync.
 
