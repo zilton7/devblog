@@ -1,0 +1,106 @@
+.scroll-popup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 350px;
+  z-index: 1000;
+  display: none;
+  /* Hidden by default */
+  animation: slideUp 0.5s ease-out forwards;
+}
+
+.scroll-popup-content {
+  background: #252a34;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  position: relative;
+  color: #fff;
+}
+
+.close-popup {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.close-popup:hover {
+  color: #fff;
+}
+
+.scroll-popup h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.scroll-popup p {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 20px;
+}
+
+.scroll-popup form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.scroll-popup input[type="email"] {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  padding: 10px 14px;
+  color: #fff;
+  font-size: 0.9rem;
+  outline: none;
+}
+
+.scroll-popup input[type="email"]:focus {
+  border-color: #4a90e2;
+}
+
+.scroll-popup .btn--primary {
+  background: #4a90e2;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.scroll-popup .btn--primary:hover {
+  background: #357abd;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  .scroll-popup {
+    width: calc(100% - 40px);
+    bottom: 10px;
+    right: 20px;
+    left: 20px;
+  }
+}
