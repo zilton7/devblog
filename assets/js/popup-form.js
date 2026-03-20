@@ -53,7 +53,7 @@
     if (closeBtn) {
       closeBtn.addEventListener('click', function () {
         hidePopup();
-        setCookie(POPUP_COOKIE_NAME, 'true', 30); // Hide for 30 days
+        setCookie(POPUP_COOKIE_NAME, 'true', 1); // Hide for 30 days
       });
     }
 
