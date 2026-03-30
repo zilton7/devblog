@@ -49,7 +49,7 @@ If you want to get hired as a Rails developer in 2026, you can't just know the b
 
 ## Summary
 
-The Ruby on Rails job market in 2026 is no longer about "hype". It is about **stability and profitability**.
+The Ruby on Rails job market in 2026 is no longer about the "hype". It is about **stability and profitability**.
 
 It is true that there are fewer entry-level junior positions for Rails than there are for JavaScript. But once you break into the mid-level and senior market, it is one of the most comfortable, highly-paid, and respected niches in the entire software industry. 
 
