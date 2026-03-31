@@ -1,13 +1,15 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
+  # - title: "Posts"
+  #   url: /posts/
+  # - title: "Categories"
+  #   url: /categories/
   - title: "Tags"
     url: /tags/
   - title: "About"
     url: /about/
   - title: "Resume"
     url: https://drive.google.com/uc?export=download&id=19smBC-34HJBnDm8v8v3PlXaaaXSXovVU
+    target: _blank
   - title: "Book a Call"
     url: https://calendar.app.google/aQrSGRQR4BUMEM2y9
+    target: _blank

@@ -15,15 +15,15 @@ title: "About"
 - Bootstrap
 
 ## Back-End
-- Ruby on Rails
-- Python, PHP
+- Ruby (on Rails)
 - JavaScript
+- Python, PHP
 
 ## Tools & Methods
-- Git
 - GitHub
+- Kamal
 - Capistrano
+- MiniTest
 - RSpec
 - TDD
-- Chrome Dev Tools
 - Mobile/Responsive Development
