@@ -10,9 +10,7 @@ If you are a Ruby on Rails developer, you have definitely heard about **Elixir**
 
 It is almost impossible to ignore. The creator of Elixir, José Valim, was a core contributor to Rails. He built Elixir because he loved Ruby's beautiful syntax, but he wanted to fix Ruby's biggest problem: handling high concurrency and real-time features.
 
-Very often I see developers asking if Phoenix is the "new Rails" and if they should abandon Ruby to learn it. I have spent time building with both, and they are both incredible tools. But they are built for very different purposes.
-
-Here is my honest breakdown of how Ruby on Rails and Elixir Phoenix compare in 2026, and which one you should actually use for your next project.
+Very often I see developers asking if Phoenix is the "new Rails" and if they should abandon Ruby to learn it. Here is my honest breakdown of how Ruby on Rails and Elixir Phoenix compare in 2026, and which one you should actually use for your next project.
 
 ## 1. The Language: OOP vs Functional
 
