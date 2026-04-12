@@ -2,8 +2,30 @@
 layout: archive
 ---
 
+<style>
+  .responsive-box {
+    width: 100%;
+    /* Default for big screens */
+  }
+
+  /* When the screen is 600px or less */
+  @media (max-width: 1024px) {
+    .responsive-box {
+      width: 50%;
+      margin: auto;
+    }
+  }
+</style>
+
 <aside class="sidebar__right sticky">
   {% include buy_me_a_coffee.html %}
+
+  <div class="responsive-box" style="margin-top: 1rem;">
+    <a href="https://norvilis.gumroad.com/l/wise-testing?ref=norviliscom-sidebar" target="_blank">
+      <img src="{{ site.baseurl }}/assets/images/wise-testing-banner.gif" style="border-radius: 10px;"
+        alt="Wise Testing Banner">
+    </a>
+  </div>
 </aside>
 
 {{ content }}
