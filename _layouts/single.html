@@ -24,26 +24,7 @@ layout: default
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork" {% if page.locale %}
     lang="{{ page.locale }}" {% endif %}>
 
-    <aside class="sidebar__right sticky">
-      {% include buy_me_a_coffee.html %}
-      <div class="responsive-box" style="margin-top: 1rem;">
-        <a href="https://norvilis.gumroad.com/l/wise-testing?utm_source=norviliscom-sidebar" target="_blank">
-          <img src="{{ site.baseurl }}/assets/images/wise-testing-banner.gif" style="border-radius: 10px;"
-            alt="Wise Testing Banner">
-        </a>
-      </div>
-      {% if page.toc %}
-      <nav class="toc">
-        <header>
-          <h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{
-            page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this
-            page" }}</h4>
-        </header>
-        {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu"
-        skip_no_ids=true %}
-      </nav>
-      {% endif %}
-    </aside>
+    {% include right_sidebar.html %}
 
     {% if page.image.path %}
     <span style="margin: 20px;">
