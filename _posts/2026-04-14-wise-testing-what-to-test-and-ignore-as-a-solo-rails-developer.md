@@ -129,7 +129,7 @@ For a solo developer, Fixtures are the ultimate speed hack. Your Minitest suite 
 ---
 
 > 💡 **Want the complete system?**
-> If this pragmatic approach resonates with you and you want to see exactly how I set up my test suites from scratch, I’ve put my entire testing workflow into a comprehensive guide. Check out **[Wise Testing: The Solo Founder's Guide to Rails Quality](https://norvilis.gumroad.com/l/wise-testing)** to learn how to test Stripe webhooks, handle complex fixtures, and set up lightning-fast CI pipelines.
+> If this pragmatic approach resonates with you and you want to see exactly how I set up my test suites from scratch, I’ve put my entire testing workflow into a comprehensive guide. Check out **[Wise Testing: The Solo Founder's Guide to Rails Quality](https://norvilis.gumroad.com/l/wise-testing?utc_source=blogpost)** to learn how to test Stripe webhooks, handle complex fixtures, and set up lightning-fast CI pipelines.
 
 ---
 
