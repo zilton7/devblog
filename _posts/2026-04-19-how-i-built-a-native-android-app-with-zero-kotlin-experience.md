@@ -1,5 +1,5 @@
 ---
-title: "How I Built a Native Android App with Zero Kotlin Experience"
+title: "How I Built a Native Android App with Almost Zero Kotlin Experience"
 categories: selfnote
 tags: [rails, hotwire, mobile, android]
 image:
