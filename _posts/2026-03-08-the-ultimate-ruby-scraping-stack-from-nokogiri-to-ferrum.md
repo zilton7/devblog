@@ -66,7 +66,7 @@ browser.quit
 ## 4. Level 3: High-Volume Orchestration (Kimurai)
 If you are building a full-scale crawler that needs to handle proxies, rotating User-Agents, and multi-threading, don't build it from scratch.
 
-Use **[Kimurai](https://github.com/vifreefly/kimurai)**. It’s a framework that brings "Scrapy-like" power to Ruby.
+Use **[Kimurai](https://github.com/vifreefly/kimuraframework)**. It’s a framework that brings "Scrapy-like" power to Ruby.
 
 ```ruby
 class MySpider < Kimurai::Base
