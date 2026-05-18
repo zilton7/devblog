@@ -63,7 +63,7 @@ You get professional-grade security without the overhead of a massive external l
 
 ## 4. Easy to Upgrade to Passkeys
 
-As I wrote in a previous article, passwords are dying. In 2026, users want to log in with **FaceID or TouchID (Passkeys)**. 
+[As I wrote in a previous article](https://norvilis.com/killing-the-password-how-to-add-passkeys-to-your-rails-8-app/), passwords are dying. In 2026, users want to log in with **FaceID or TouchID (Passkeys)**. 
 
 Upgrading Devise to support Passkeys is a nightmare because you have to fight Devise's internal session handling. 
 
