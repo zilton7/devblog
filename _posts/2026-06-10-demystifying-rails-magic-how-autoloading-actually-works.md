@@ -34,8 +34,6 @@ Zeitwerk then runs a hidden `require` for that file, loads the class into memory
 
 ## Level 3: Why This is Different from Elixir
 
-I noticed a lot of senior roles (like the **Remote** job description above) are moving toward **Elixir and Phoenix**. It is interesting to compare the two.
-
 In **Elixir**, you don't have "autoloading" in the same way. Elixir is a compiled language. When you start a Phoenix app, the compiler reads all your modules and links them together before the app even starts.
 
 In **Rails**, everything is dynamic. Classes can be loaded, deleted, and reloaded while the app is running. This leads us to the most useful feature for solo developers: **Reloading**.
