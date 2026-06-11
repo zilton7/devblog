@@ -1,5 +1,5 @@
 ---
-title: "Stripe-Style IDs in Rails: A Guide to the make_id Gem"
+title: "Stripe-Style IDs in Rails: A Guide to the custom_id Gem"
 categories: selfnote
 tags: [rails, ruby, security, database]
 image:
@@ -12,7 +12,7 @@ These are called **Prefixed IDs**. They are great for two reasons:
 1.  **Context:** When you see `inv_...` in your logs, you immediately know it’s an Invoice without looking at the table name.
 2.  **Security:** It hides your business volume. Hackers can't guess that your next user is ID 501.
 
-In the past, setting this up in Rails required a lot of custom code in your models. But recently, I found a gem that makes this process incredibly simple: **[make_id](https://github.com/mperham/make_id)** (built by Mike Perham, the creator of Sidekiq).
+In the past, setting this up in Rails required a lot of custom code in your models. But recently, I found a gem that makes this process incredibly simple: **[custom_id](https://github.com/pniemczyk/custom_id)**.
 
 Here is how to implement professional, Stripe-style IDs in your Rails 8 app in 4 steps.
 
@@ -21,9 +21,13 @@ Here is how to implement professional, Stripe-style IDs in your Rails 8 app in 4
 Add the gem to your Gemfile:
 
 ```ruby
-gem "make_id"
+gem "custom_id"
 ```
-Run `bundle install` in your terminal.
+Run  in your terminal 
+```
+bundle install
+rails custom_id:install
+```
 
 ## STEP 2: The Migration
 
@@ -51,17 +55,17 @@ end
 
 ## STEP 3: Configure the Model
 
-This is where the gem shines. You just use the `make_id` macro. You tell it what prefix you want to use, and it handles the rest.
+This is where the gem shines. You just use the `custom_id` macro. You tell it what prefix you want to use, and it handles the rest.
 
 ```ruby
 # app/models/project.rb
 class Project < ApplicationRecord
   # This tells the gem to generate an ID starting with 'prj_'
-  make_id :prj
+  cid "usr"
 end
 ```
 
-By default, the gem uses a secure, random string (NanoID) after the prefix.
+By default, the gem uses a collision-resistant loop with database uniqueness check.
 
 ## STEP 4: Seeing it in Action
 
@@ -78,12 +82,12 @@ It looks professional, it’s easy to read in your logs, and it’s perfectly un
 
 ## Advanced: Customizing your IDs
 
-The `make_id` gem is very flexible. You can change the length of the random part if you have a massive amount of data and want to avoid collisions.
+The `custom_id` gem is very flexible. You can change the length of the random part if you have a massive amount of data and want to avoid collisions.
 
 ```ruby
 class User < ApplicationRecord
   # Use a 3-letter prefix and a longer 20-character random string
-  make_id :usr, length: 20
+  cid :usr, size: 32
 end
 ```
 
@@ -96,10 +100,10 @@ I love UUIDs for their uniqueness, but I hate how they look in URLs.
 
 ## Summary
 
-The `make_id` gem is a "Quality of Life" improvement for Rails developers. It takes an enterprise-level feature (Prefixed IDs) and turns it into a one-line setup.
+The `custom_id` gem is a "Quality of Life" improvement for Rails developers. It takes an enterprise-level feature (Prefixed IDs) and turns it into a one-line setup.
 
 1.  **Install** the gem.
 2.  Set your primary key to **string**.
-3.  Add **`make_id :prefix`** to your model.
+3.  Add **`cid 'prefix'`** to your model.
 
 It’s a tiny change that makes your Rails monolith feel significantly more polished and "pro."
