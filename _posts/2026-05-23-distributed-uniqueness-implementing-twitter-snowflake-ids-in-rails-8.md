@@ -44,7 +44,7 @@ Snowflaked.id
 
 ## The Primary Key in Rails
 
-All models automatically generate a Snowflake ID for the :id attribute.
+Now all the models automatically generate a Snowflake ID for the :id attribute.
 ```
 User.create!
 # => #<User id: 7193489234823847936>
