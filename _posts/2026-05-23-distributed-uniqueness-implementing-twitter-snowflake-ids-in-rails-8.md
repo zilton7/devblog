@@ -27,64 +27,73 @@ The magic is in how the 64 bits are broken down:
 
 Because the first part of the ID is time, Snowflake IDs are **roughly time-ordered**. This makes them much faster for databases to index than random UUIDs.
 
-## STEP 1: The Ruby Implementation
+## The Ruby Implementation
 
-You don't need to write the bit-shifting logic yourself. There is a great, lightweight gem called `snowflake_id`.
+You don't need to write the bit-shifting logic yourself. There is a great gem called [snowflaked](https://github.com/luizkowalski/snowflaked).
 
 Add it to your `Gemfile`:
 ```ruby
-gem 'snowflake_id'
+gem 'snowflaked'
 ```
 
 You can now generate an ID anywhere in Ruby:
 ```ruby
-SnowflakeId.generator.next_id
+Snowflaked.id
 # => 1782345678912345678 (A clean, big integer)
 ```
 
-## STEP 2: Making it the Primary Key in Rails
+## The Primary Key in Rails
 
-To use Snowflake IDs as your primary keys, we need to tell Rails to stop using auto-increment and instead generate a Snowflake ID before saving the record.
-
-First, create a **Concern** to make this reusable across all your models.
-
-```ruby
-# app/models/concerns/has_snowflake_id.rb
-module HasSnowflakeId
-  extend ActiveSupport::Concern
-
-  included do
-    # Set the ID before the record is created in the DB
-    before_create :assign_snowflake_id
-  end
-
-  private
-
-  def assign_snowflake_id
-    self.id ||= SnowflakeId.generator.next_id
-  end
-end
+All models automatically generate a Snowflake ID for the :id attribute.
 ```
-
-## STEP 3: The Migration
-
-When you generate a new model, you need to tell the migration *not* to use auto-increment.
+User.create!
+# => #<User id: 7193489234823847936>
+```
+You can also define additional Snowflake columns in migrations:
 
 ```ruby
-# db/migrate/20260101000000_create_posts.rb
-class CreatePosts < ActiveRecord::Migration[8.0]
+class CreateUsers < ActiveRecord::Migration[8.1]
   def change
-    # id: false stops the default auto-increment
-    create_table :posts, id: false do |t|
-      t.primary_key :id, :bigint, primary_key: true
-      t.string :title
-      t.timestamps
+    create_table :users do |t|
+      t.snowflake :external_id
+      t.bigint    :uid
     end
   end
 end
 ```
 
+Columns created with t.snowflake are automatically detected and will have Snowflake IDs generated for them.
+
+## SQLite Warning
+
+SQLite does not support column comments, which Snowflaked uses to auto-detect snowflake columns other than :id. When using SQLite, you must explicitly declare snowflake columns using the snowflake_id helper in your model.
+
+If you want to generate Snowflake IDs for additional columns, you can do so by using the snowflake_id method, without having to migrate the table:
+
+```ruby
+class User < ApplicationRecord
+  snowflake_id :uid
+end
+```
+
+It is also possible to disable automatic :id generation by passing id: false to the snowflake_id method:
+
+```ruby
+class Post < ApplicationRecord
+  snowflake_id id: false
+end
+```
+
+Or generate Snowflake IDs for other columns but not :id:
+
+```ruby
+class Post < ApplicationRecord
+  snowflake_id :external_id, id: false
+end
+```
+
 Then, in your model:
+
 ```ruby
 class Post < ApplicationRecord
   include HasSnowflakeId
