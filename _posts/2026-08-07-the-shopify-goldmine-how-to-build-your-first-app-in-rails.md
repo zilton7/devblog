@@ -6,8 +6,6 @@ image:
  path: /assets/images/2026-08-07-The-Shopify-Goldmine-How-To-Build-Your-First-App-In-Rails/feature.webp
 ---
 
-# From Rails Dev to Shopify Partner: A Beginner's Guide to Building Apps
-
 If you know Ruby on Rails, you are already sitting on a goldmine. 
 
 Shopify is one of the biggest e-commerce platforms in the world, and here is a secret: **Shopify was built with Rails.** Because of this, the Shopify ecosystem is incredibly friendly to Rails developers. 
