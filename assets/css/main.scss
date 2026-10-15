@@ -36,7 +36,15 @@
   display: block; // Ensures the link fills the container
 }
 
-// Prevent right sidebar from pushing article content down
+// Prevent right sidebar from pushing article content down or causing scroll reflow gaps
 .page .page__inner-wrap {
+  float: none;
   clear: none;
+
+  .page__content,
+  .page__meta,
+  .page__share {
+    float: none;
+    clear: none;
+  }
 }
