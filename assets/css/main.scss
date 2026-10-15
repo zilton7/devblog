@@ -35,3 +35,8 @@
 .entry-image a {
   display: block; // Ensures the link fills the container
 }
+
+// Prevent right sidebar from pushing article content down
+.page .page__inner-wrap {
+  clear: none;
+}
