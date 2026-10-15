@@ -17,7 +17,13 @@ layout: archive
     {% endif %}
     {% include archive-single.html type=page.entries_layout %}
   </div>
-  {% endfor %}
+  {% assign post_index_mod = forloop.index | modulo: 6 %}
+  {% if post_index_mod == 3 %}
+  <div style="margin: auto; margin-bottom: 2rem; text-align: center;">
+    {% include adsterra_tags/728x90.html %}
+  </div>
+  {% endif %}
+  {% endfor %}  
 </div>
 
 {% include paginator.html %}

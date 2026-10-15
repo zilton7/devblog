@@ -70,7 +70,9 @@ layout: default
       {% endif %}
 
       <section class="page__content" itemprop="text">
-
+    <div style="margin: auto; margin-top: 1rem; margin-bottom: 1rem; text-align: center;">
+    {% include adsterra_tags/native_banner.html %}
+    </div>
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{
             site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
@@ -100,4 +102,5 @@ layout: default
   {% elsif page.id and page.related %}
   {% include page__related.html posts=site.posts %}
   {% endif %}
+  {% include adsterra_tags/social_bar.html %}
 </div>
