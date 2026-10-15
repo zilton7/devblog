@@ -1,4 +1,5 @@
-<!-- <script>
+{% if site.show_ads == true %}
+<script>
   atOptions = {
     'key' : '840e59ddfac8302d4faed550fc58b7c4',
     'format' : 'iframe',
@@ -7,6 +8,7 @@
     'params' : {}
   };
 </script>
-<script src="https://bauval.org/22/840e59ddfac8302d4faed550fc58b7c4"></script> -->
-
+<script src="https://bauval.org/22/840e59ddfac8302d4faed550fc58b7c4"></script>
+{% else %}
 <img src="https://placeholdit.com/160x300/dddddd/999999" alt="160x300">
+{% endif %}

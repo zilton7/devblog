@@ -19,10 +19,13 @@ description: >- # this means to ignore newlines until "baseurl:"
   My thoughts on Web Developing, Solopreneurship, Linux and other. Including notes to myself
   for easier and quicker developing.
 url: https://norvilis.com
-baseurl: ''
+baseurl: ""
 twitter_username: zilasino
-github_username:  zilton7
+github_username: zilton7
 future: true
+
+# Ads
+show_ads: true
 
 # twitter:
 #   username: zilasino
@@ -131,7 +134,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      
+
 category_archive:
   type: liquid
   path: /categories/
@@ -140,7 +143,7 @@ tag_archive:
   path: /tags/
 # COMMENTS FUNCTIONALITY IS CUSTOMLY ADDED _includes/comments.html
 comments:
-  provider               : custom #giscus # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"        : # "pathname" (default)
+  provider: custom #giscus # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"        : # "pathname" (default)
 #   giscus:
 #     repo_id              : R_kgDON_hXdQ # Shown during giscus setup at https://giscus.app
 #     category_name        : General # Full text name of the category
