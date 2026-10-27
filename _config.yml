@@ -25,7 +25,7 @@ github_username: zilton7
 future: true
 
 # Ads
-show_ads: true
+show_ads: false
 
 # twitter:
 #   username: zilasino
